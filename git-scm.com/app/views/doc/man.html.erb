@@ -1,0 +1,14 @@
+<% @section    = 'documentation' %>
+<% @subsection = 'reference' %>
+
+<% cache @doc do %>
+  <div id='reference-version'>
+    <%= render 'doc/languages' %>
+    <%= render 'doc/topics' %>
+    <%= render 'doc/versions' %>
+  </div>
+
+  <div id='main'>
+    <%=raw @doc.html %>
+  </div>
+<% end %>
