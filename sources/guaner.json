@@ -2225,7 +2225,7 @@
         "ruleBookInfo": {
             "author": "//*[@property=\"og:novel:author\"]/@content",
             "coverUrl": "//*[@property=\"og:image\"]/@content",
-            "intro": "class.intro@text",
+            "intro": "class.intro.0@html",
             "name": "//*[@property=\"og:novel:book_name\"]/@content",
             "tocUrl": "text.阅读目录@href"
         },
