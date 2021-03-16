@@ -4039,6 +4039,51 @@
     "weight": 0
   },
   {
+  "bookSourceComment": "",
+  "bookSourceGroup": "🎈  普通",
+  "bookSourceName": "🎈po18gw「PO文」",
+  "bookSourceType": 0,
+  "bookSourceUrl": "https://www.po18gw.com",
+  "bookUrlPattern": "https://www.po18gw.com/book/\\d+.html",
+  "customOrder": 90,
+  "enabled": true,
+  "enabledExplore": false,
+  "exploreUrl": "玄幻奇幻::/list/1/{{page}}.html&&武侠仙侠::/list/2/{{page}}.html&&都市言情::/list/3/{{page}}.html&&科幻网游::/list/4/{{page}}.html&&惊悚悬疑::/list/5/{{page}}.html&&耽美同人::/list/6/{{page}}.html&&穿越架空::/list/7/{{page}}.html&&高辣浓情::/list/8/{{page}}.html&&禁忌百合::/list/9/{{page}}.html&&精品文学::/list/10/{{page}}.html&&",
+  "lastUpdateTime": 1615869093864,
+  "ruleBookInfo": {
+    "author": "class.booktag@tag.a.0@text",
+    "coverUrl": "",
+    "intro": "id.bookIntro@html",
+    "lastChapter": ".booktag+p a@text",
+    "name": ".bookTitle@text"
+  },
+  "ruleContent": {
+    "content": "id.htmlContent@html",
+    "nextContentUrl": "text.下一章@href||text.下一页@href"
+  },
+  "ruleExplore": {
+    "author": "class.text-muted.1@text",
+    "bookList": "tbody@tr!0",
+    "bookUrl": "tag.a.0@href",
+    "lastChapter": "",
+    "name": "tag.a.0@text"
+  },
+  "ruleSearch": {
+    "author": "##作者：([^<]+)<##$1###",
+    "bookList": "class.mySearch@ul",
+    "bookUrl": "tag.a.0@href",
+    "lastChapter": "tag.a.1@text",
+    "name": "tag.a.0@text"
+  },
+  "ruleToc": {
+    "chapterList": "id.list-chapterAll@dd@a",
+    "chapterName": "text",
+    "chapterUrl": "href"
+  },
+  "searchUrl": "https://www.po18gw.com/modules/article/search.php?searchkey={{key}},{\"charset\":\"gbk\"}",
+  "weight": 0
+},
+  {
     "bookSourceComment": "",
     "bookSourceGroup": "🎈  普通",
     "bookSourceName": "🎈甜梦文库「PO文」",
