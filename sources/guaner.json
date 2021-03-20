@@ -6639,7 +6639,7 @@
     "exploreUrl": "全部::https://www.missevan.com/dramaapi/filter?filters=0_5_0_0_0&page={{page}}&order=1&page_size=20\n现代::https://www.missevan.com/dramaapi/filter?filters=0_5_0_1_0&page={{page}}&order=1&page_size=20\n古风::https://www.missevan.com/dramaapi/filter?filters=0_5_0_2_0&page={{page}}&order=1&page_size=20\n民国::https://www.missevan.com/dramaapi/filter?filters=0_5_0_3_0&page={{page}}&order=1&page_size=20",
     "lastUpdateTime": 1612456113321,
     "ruleBookInfo": {
-      "intro": "class.intro-content@text||$.info.sound.intro",
+      "intro": "class.intro-content@html||$.info.sound.intro",
       "kind": "class.detail-count@text&&class.detail-newest@text&&class.detail-author@text&&class.detail-type@text&&class.detail-tags@text##类型：|标签：无|标签：",
       "tocUrl": "@js:\nif(baseUrl.match(/dramaapi|mdrama/)){\nresult='https://www.missevan.com/dramaapi/getdrama?drama_id='+baseUrl.match(/(\\d+)/)[1]\n}"
     },
