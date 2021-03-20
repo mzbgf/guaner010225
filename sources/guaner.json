@@ -4125,45 +4125,46 @@
     "weight": 0
   },
   {
-    "bookSourceComment": "",
-    "bookSourceGroup": "🎈  普通",
-    "bookSourceName": "🎈牛站小说「PO文」",
-    "bookSourceType": 0,
-    "bookSourceUrl": "http://m.niuzhanxs.com",
-    "bookUrlPattern": "http://m.niuzhanxs.com/book/\\d+/",
-    "customOrder": 91,
-    "enabled": true,
-    "enabledExplore": true,
-    "lastUpdateTime": 1615861056673,
-    "ruleBookInfo": {
-      "author": "class.infotype@tag.a.0@text",
-      "intro": "class.intro@text",
-      "kind": "##类型：([^<]+)<##$1###",
-      "lastChapter": "class.infotype@tag.a.-1@text",
-      "name": "h3@text",
-      "tocUrl": "class.gochapter@a@href"
-    },
-    "ruleContent": {
-      "content": "class.articlecontent@html##本章尚未完结,请[\\s\\S]+",
-      "imageStyle": "TEXT",
-      "nextContentUrl": "text.下一页@href"
-    },
-    "ruleExplore": {},
-    "ruleSearch": {
-      "author": "tag.a.1@text",
-      "bookList": "class.sone",
-      "bookUrl": "tag.a.0@href",
-      "name": "tag.a.0@text"
-    },
-    "ruleToc": {
-      "chapterList": "class.chapters@li@a",
-      "chapterName": "text",
-      "chapterUrl": "href",
-      "nextTocUrl": "text.下一页@href"
-    },
-    "searchUrl": "http://m.niuzhanxs.com/s.html,{\n\"method\": \"POST\",\n\"body\": \"s={{key}}&type=articlename\"\n}",
-    "weight": 0
+  "bookSourceComment": "",
+  "bookSourceGroup": "🎈  普通",
+  "bookSourceName": "🎈牛站小说「PO文」",
+  "bookSourceType": 0,
+  "bookSourceUrl": "http://m.niuzhanxs.com",
+  "bookUrlPattern": "http://m.niuzhanxs.com/book/\\d+/",
+  "customOrder": 91,
+  "enabled": true,
+  "enabledExplore": true,
+  "lastUpdateTime": 1616245540455,
+  "ruleBookInfo": {
+    "author": "class.infotype@tag.a.0@text",
+    "intro": "class.intro@text",
+    "kind": "##类型：([^<]+)<##$1###",
+    "lastChapter": "class.infotype@tag.a.-1@text",
+    "name": "h3@text",
+    "tocUrl": "class.gochapter@a@href"
   },
+  "ruleContent": {
+    "content": "@js:\ncontent = {  \n    star: 0,   \n    childNode: [],\n    childNodes: java.getElements(\"@@id.novelcontent@p\").toArray(),\n   UpWz: function(m, i) {\n        var k = Math.ceil((i + 1) % this.code);\n        k = Math.ceil(m - k);\n        return k\n      },\n    load: function() {\n    this.code=result.match(/codeurl=.*?code=(\\d+)/)[1];\n    var e = String(java.base64Decode(java.getString('//*[@name=\"client\"]/@content',false))).split(/[A-Z]+%/);\n    var j = 0; \n    for (var i = 0; i < e.length; i++) {\n    var k = this.UpWz(e[i], i);\n    this.childNode[k] = this.childNodes[i]\n    };\n    }\n}\nif(baseUrl.match(/.*?\\/\\d+_\\d+.html/)){\ncontent.load();\nresult=content.childNode.join(\"<br>\");}else{result=java.getElements(\"@@id.novelcontent@p\")}",
+    "imageStyle": "TEXT",
+    "nextContentUrl": "text.下一页@href",
+    "replaceRegex": "##本章尚未完结[\\s\\S]+?下一页|本章已阅读完毕.*"
+  },
+  "ruleExplore": {},
+  "ruleSearch": {
+    "author": "tag.a.1@text",
+    "bookList": "class.sone",
+    "bookUrl": "tag.a.0@href",
+    "name": "tag.a.0@text"
+  },
+  "ruleToc": {
+    "chapterList": "class.chapters@li@a",
+    "chapterName": "text",
+    "chapterUrl": "href",
+    "nextTocUrl": "text.下一页@href"
+  },
+  "searchUrl": "http://m.niuzhanxs.com/s.html,{\n\"method\": \"POST\",\n\"body\": \"s={{key}}&type=articlename\"\n}",
+  "weight": 0
+},
   {
     "bookSourceComment": "备用地址\nhttps://www.haitangsoshu.com",
     "bookSourceGroup": "🎈  普通",
