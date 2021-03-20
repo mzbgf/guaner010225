@@ -930,7 +930,7 @@
     "bookSourceName": "🌸笔趣阁8",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.ac7000.com",
-    "bookUrlPattern": "http://www.fairso.com/\\d+_\\d+/",
+    "bookUrlPattern": "",
     "customOrder": 15,
     "enabled": true,
     "enabledExplore": true,
@@ -945,7 +945,7 @@
       "name": "//meta[@property=\"og:title\"]/@content"
     },
     "ruleContent": {
-      "content": "id.content@html##----更新快，无防盗上------|热门\\*小说txt下载|.*www.biqugexx.net.*|biqu.*net",
+      "content": "class.chapter_content@html##----更新快，无防盗上------|热门\\*小说txt下载|.*www.biqugexx.net.*|biqu.*net",
       "imageStyle": "0",
       "nextContentUrl": "text.下一页@href",
       "replaceRegex": "##\\s*.*?本章未完.*\\s*"
@@ -966,7 +966,7 @@
     "ruleToc": {
       "chapterList": "id.list@tag.dd@tag.a",
       "chapterName": "text",
-      "chapterUrl": "href"
+      "chapterUrl": "href##^/\\d+##http://m.ac7000.com/book"
     },
     "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
     "weight": 0
