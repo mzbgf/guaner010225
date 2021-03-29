@@ -103,8 +103,9 @@
       "name": "$.novel_name##<.*?>"
     },
     "ruleToc": {
+        "isVip":"class.isVIP@class",
       "chapterList": "class.novelModel",
-      "chapterName": "img@src&&class.boxtop@text##/h5/img/buy@2x.png##🔒",
+      "chapterName": "class.boxtop@text",
       "chapterUrl": "a@onclick##readNovel\\('(\\d+)-(\\d+)'\\)##https://m.gongzicp.com/read-$1-$2.html###"
     },
     "searchUrl": "https://m.gongzicp.com/novel/searchNovelOnlyByName?keyword={{key}}&searchType=1&finishType=0&novelType=0&sortType=1&page=1,{\n\"headers\": {\"X-Requested-With\": \"XMLHttpRequest\"}\n}\n@js:java.put('key',key);result",
