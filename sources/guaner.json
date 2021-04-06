@@ -1456,71 +1456,72 @@
     "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
     "weight": 0
   },
-  {
-    "bookSourceComment": "",
-    "bookSourceGroup": "🌸  常用",
-    "bookSourceName": "🌸三千五",
-    "bookSourceType": 0,
-    "bookSourceUrl": "http://www.cn3k5.com",
-    "bookUrlPattern": "",
-    "customOrder": 31,
-    "enabled": true,
-    "enabledExplore": true,
-    "exploreUrl": "",
-    "header": "",
-    "lastUpdateTime": 1614589960491,
-    "loginUrl": "",
-    "ruleBookInfo": {
-      "author": "id.author@text##作者：",
-      "coverUrl": "id.bookimg@tag.img@src##.*nocover.jpg",
-      "init": "",
-      "intro": "id.bookintro@tag.p@textNodes",
-      "kind": "",
-      "lastChapter": "id.newlist@tag.li.0@tag.a.0@text",
-      "name": "tag.h1.0@text",
-      "tocUrl": "class.newrap@tag.a.0@href",
-      "wordCount": ""
-    },
-    "ruleContent": {
-      "content": "id.content@textNodes##你是天才.*三千.*",
-      "imageStyle": "0",
-      "nextContentUrl": "text.下一章@href",
-      "sourceRegex": "",
-      "webJs": ""
-    },
-    "ruleExplore": {
-      "author": "",
-      "bookList": "",
-      "bookUrl": "",
-      "coverUrl": "",
-      "intro": "",
-      "kind": "",
-      "lastChapter": "",
-      "name": "",
-      "wordCount": ""
-    },
-    "ruleSearch": {
-      "author": "id.nr@class.odd.1@text||id.info@tag.p.0@text",
-      "bookList": "id.conn@tag.tr!0",
-      "bookUrl": "id.nr@class.odd.0@tag.a@href",
-      "coverUrl": "tag.img@src##.*nocover.jpg",
-      "intro": "",
-      "kind": "class.con_top@tag.a.4@text",
-      "lastChapter": "id.nr@class.even@tag.a@text",
-      "name": "id.nr@class.odd.0@tag.a@text",
-      "wordCount": ""
-    },
-    "ruleToc": {
-      "chapterList": "id.readerlist@tag.li",
-      "chapterName": "tag.a@text",
-      "chapterUrl": "tag.a@href",
-      "isVip": "",
-      "nextTocUrl": "",
-      "updateTime": ""
-    },
-    "searchUrl": "https://www.cn3k5.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page=1,{\"charset\":\"gbk\"}",
-    "weight": 0
+ {
+  "bookSourceComment": "",
+  "bookSourceGroup": "🌸  常用",
+  "bookSourceName": "🌸三千五",
+  "bookSourceType": 0,
+  "bookSourceUrl": "http://www.cn3k5.com",
+  "bookUrlPattern": "",
+  "customOrder": 38,
+  "enabled": true,
+  "enabledExplore": true,
+  "exploreUrl": "",
+  "header": "",
+  "lastUpdateTime": 1617418166634,
+  "loginUrl": "",
+  "ruleBookInfo": {
+    "author": "id.author@text##作者：",
+    "canReName": "1",
+    "coverUrl": "id.bookimg@tag.img@src##.*nocover.*",
+    "init": "",
+    "intro": "id.bookintro@tag.p@textNodes",
+    "kind": "",
+    "lastChapter": "id.newlist@tag.li.0@tag.a.0@text",
+    "name": "tag.h1.0@text",
+    "tocUrl": "class.newrap@tag.a.0@href",
+    "wordCount": ""
   },
+  "ruleContent": {
+    "content": "id.content@textNodes##你是天才.*三千.*",
+    "imageStyle": "0",
+    "nextContentUrl": "text.下一章>>@href",
+    "sourceRegex": "",
+    "webJs": ""
+  },
+  "ruleExplore": {
+    "author": "",
+    "bookList": "",
+    "bookUrl": "",
+    "coverUrl": "",
+    "intro": "",
+    "kind": "",
+    "lastChapter": "",
+    "name": "",
+    "wordCount": ""
+  },
+  "ruleSearch": {
+    "author": "class.text-layout@class.ellipsis.0@text##作者：(.*)##$1###",
+    "bookList": "class.vrResult!0",
+    "bookUrl": "h3@tag.a.0@href\n<js>a=result.match(/http.*/)[0];\ndecodeURIComponent(a).replace(/\\/&vrid.*/,'');</js>\n##-(\\d+)##https://www.cn3k5.com/book/$1.html###",
+    "coverUrl": "class.img-flex@img@src##url=(http.*?)&##$1###\n<js>decodeURIComponent(result)</js>\n##.*nocover.*",
+    "intro": "",
+    "kind": "class.text-layout@class.ellipsis.-1@text##状态：(.*)##$1###",
+    "lastChapter": "class.chapter-title@p@text",
+    "name": "h3@text##(.*?)最新章节.*##$1###",
+    "wordCount": ""
+  },
+  "ruleToc": {
+    "chapterList": "id.readerlist@tag.li",
+    "chapterName": "tag.a@text",
+    "chapterUrl": "tag.a@href##^##https://www.cn3k5.com",
+    "isVip": "",
+    "nextTocUrl": "",
+    "updateTime": ""
+  },
+  "searchUrl": "https://wap.sogou.com/web/sl?keyword={{key}} site:сn3k5.com",
+  "weight": 0
+},
   {
     "bookSourceComment": "",
     "bookSourceGroup": "🌸  常用",
