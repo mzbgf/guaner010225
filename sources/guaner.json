@@ -690,7 +690,7 @@
       "name": "class.bookTitle@text"
     },
     "ruleContent": {
-      "content": "class.panel-body@html##注意：显示本章节全部内容[\\s\\S]+##❌",
+      "content": "#htmlContent+div@html##注意：显示本章节全部内容[\\s\\S]+##❌",
       "nextContentUrl": "##url = \"([^\"]+)\";##$1###",
       "replaceRegex": "##\\s*❌\\s*|出错了，请刷新重试|热门小说txt下载|.*百度畅读模式下功能不全.*|https://www.19826.net"
     },
