@@ -230,71 +230,71 @@
     "weight": 0
   },
   {
-    "bookSourceComment": "",
-    "bookSourceGroup": "🌸  常用",
-    "bookSourceName": "🌸红甘泉",
-    "bookSourceType": 0,
-    "bookSourceUrl": "https://www.hgq26.com",
-    "bookUrlPattern": "",
-    "customOrder": 5,
-    "enabled": true,
-    "enabledExplore": false,
-    "exploreUrl": "玄幻奇幻::/fenlei/1_{{page}}/\n武侠仙侠::/fenlei/2_{{page}}/\n都市言情::/fenlei/3_{{page}}/\n历史军事::/fenlei/4_{{page}}/\n科幻灵异::/fenlei/6_{{page}}/\n游戏竞技::/fenlei/5_{{page}}/\n其他类型::/fenlei/7_{{page}}/",
-    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\"\n}",
-    "lastUpdateTime": 1620562625119,
-    "loginUrl": "",
-    "ruleBookInfo": {
-      "author": "id.author@text",
-      "canReName": "11",
-      "coverUrl": "id.bookimg@tag.img@src",
-      "init": "",
-      "intro": "id.bookintro@text",
-      "kind": "class.pd_r.0@text",
-      "lastChapter": "id.newlist@tag.li.0@tag.a@text",
-      "name": "class.bookright@tag.h1@text",
-      "tocUrl": "id.reader@tag.a@href",
-      "wordCount": "class.pd_r.4@text"
-    },
-    "ruleContent": {
-      "content": "id.content@html##你是天才.*",
-      "imageStyle": "FULL",
-      "nextContentUrl": "",
-      "sourceRegex": "",
-      "webJs": ""
-    },
-    "ruleExplore": {
-      "author": "tag.dl@tag.dd.1@tag.a@text",
-      "bookList": "id.sitebox@tag.dl",
-      "bookUrl": "tag.a.0@href",
-      "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##http://image.hgq26.com/$2/$1/$1s.jpg###",
-      "intro": "tag.dl@tag.dd.2@text",
-      "kind": "tag.dd.1@tag.span.1@text&&class.uptime@text",
-      "lastChapter": "tag.dl@tag.dd.3@text##最新章节：",
-      "name": "tag.dl@tag.dd@tag.h3@tag.a@text",
-      "wordCount": "tag.dl@tag.dd.1@tag.span.2@text"
-    },
-    "ruleSearch": {
-      "author": "class.text-layout@class.ellipsis.0@text##作者：(.*)##$1###",
-      "bookList": "class.vrResult!0",
-      "bookUrl": "h3@tag.a.0@href\n<js>a=result.match(/http.*/)[0];\ndecodeURIComponent(a).replace(/\\/&vrid.*/,'');</js>\n##-(\\d+)##http://www.hgq26.com/book/$1.html###",
-      "coverUrl": "class.img-flex@img@src##url=(http.*?)&##$1###\n@js:decodeURIComponent(result)",
-      "intro": "class.clamp3@text",
-      "kind": "class.text-layout@class.ellipsis.-1@text##状态：(.*)##$1###",
-      "lastChapter": "class.chapter-title@tag.p@text",
-      "name": "h3@text##(.*?)最新章节.*##$1###",
-      "wordCount": ""
-    },
-    "ruleToc": {
-      "chapterList": "id.readerlist@li",
-      "chapterName": "tag.a@text",
-      "chapterUrl": "tag.a@href",
-      "isVip": "",
-      "nextTocUrl": "",
-      "updateTime": ""
-    },
-    "searchUrl": "https://wap.sogou.com/web/sl?keyword={{key}} site:hgq26.com",
-    "weight": 0
+  "bookSourceComment": "",
+  "bookSourceGroup": "🌸  常用",
+  "bookSourceName": "🌸红甘泉",
+  "bookSourceType": 0,
+  "bookSourceUrl": "https://www.hgq26.com",
+  "bookUrlPattern": "",
+  "customOrder": 5,
+  "enabled": true,
+  "enabledExplore": false,
+  "exploreUrl": "玄幻奇幻::/fenlei/1_{{page}}/\n武侠仙侠::/fenlei/2_{{page}}/\n都市言情::/fenlei/3_{{page}}/\n历史军事::/fenlei/4_{{page}}/\n科幻灵异::/fenlei/6_{{page}}/\n游戏竞技::/fenlei/5_{{page}}/\n其他类型::/fenlei/7_{{page}}/",
+  "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\"\n}",
+  "lastUpdateTime": 1621061007441,
+  "loginUrl": "",
+  "ruleBookInfo": {
+    "author": "id.author@text",
+    "canReName": "11",
+    "coverUrl": "id.bookimg@tag.img@src",
+    "init": "",
+    "intro": "id.bookintro@text",
+    "kind": "class.pd_r.0@text",
+    "lastChapter": "id.newlist@tag.li.0@tag.a@text",
+    "name": "class.bookright@tag.h1@text",
+    "tocUrl": "id.reader@tag.a@href",
+    "wordCount": "class.pd_r.4@text"
   },
+  "ruleContent": {
+    "content": "id.content@html##你是天才.*",
+    "imageStyle": "FULL",
+    "nextContentUrl": "",
+    "sourceRegex": "",
+    "webJs": ""
+  },
+  "ruleExplore": {
+    "author": "tag.dl@tag.dd.1@tag.a@text",
+    "bookList": "id.sitebox@tag.dl",
+    "bookUrl": "tag.a.0@href",
+    "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##http://image.hgq26.com/$2/$1/$1s.jpg###",
+    "intro": "tag.dl@tag.dd.2@text",
+    "kind": "tag.dd.1@tag.span.1@text&&class.uptime@text",
+    "lastChapter": "tag.dl@tag.dd.3@text##最新章节：",
+    "name": "tag.dl@tag.dd@tag.h3@tag.a@text",
+    "wordCount": "tag.dl@tag.dd.1@tag.span.2@text"
+  },
+  "ruleSearch": {
+    "author": "class.text-layout@class.ellipsis.0@text\n@js:/作者/.test(result)?result.replace(/作者：(.*)/,'$1'):String(java.getString('@class.clamp3@text',false)).replace(/.*?是(.*?)书写.*/,'$1')",
+    "bookList": "class.vrResult!0",
+    "bookUrl": "h3@tag.a.0@href\n<js>a=result.match(/http.*/)[0];\ndecodeURIComponent(a).replace(/\\/&vrid.*/,'');</js>\n##-(\\d+)##http://www.hgq26.com/book/$1.html###",
+    "coverUrl": "class.img-flex@img@src##url=(http.*?)&##$1###\n@js:decodeURIComponent(result)",
+    "intro": "class.clamp3@text",
+    "kind": "class.text-layout@class.ellipsis.-1@text##状态：(.*)##$1###",
+    "lastChapter": "class.chapter-title@tag.p@text",
+    "name": "h3@text##(.*?)最新章节.*##$1###",
+    "wordCount": ""
+  },
+  "ruleToc": {
+    "chapterList": "id.readerlist@li",
+    "chapterName": "tag.a@text",
+    "chapterUrl": "tag.a@href",
+    "isVip": "",
+    "nextTocUrl": "",
+    "updateTime": ""
+  },
+  "searchUrl": "https://wap.sogou.com/web/sl?keyword={{key}} site:hgq26.com",
+  "weight": 0
+},
   {
     "bookSourceComment": "",
     "bookSourceGroup": "🌸  常用",
@@ -5239,53 +5239,57 @@
     "weight": 0
   },
   {
-    "bookSourceComment": "发现规则格式\n\n贴吧名::https://tieba.baidu.com/mo/q/m?word=贴吧名[不要加吧字]&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn={{(page-1)*30}}\n",
-    "bookSourceGroup": "🔎  百度",
-    "bookSourceName": "🔎百度贴吧",
-    "bookSourceType": 0,
-    "bookSourceUrl": "https://tieba.baidu.com",
-    "bookUrlPattern": "",
-    "customOrder": 117,
-    "enabled": false,
-    "enabledExplore": true,
-    "exploreUrl": "百合小说吧::https://tieba.baidu.com/mo/q/m?word=百合小说&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn={{(page-1)*30}}\n\n毁魅吧::https://tieba.baidu.com/mo/q/m?word=毁魅&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn={{(page-1)*30}}\n\n百合文吧::https://tieba.baidu.com/mo/q/m?word=百合文&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E5%85%A8%E9%83%A8&pn={{(page-1)*30}}\ngl小说吧::https://tieba.baidu.com/mo/q/m?word=gl小说&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn={{(page-1)*30}}\n百合文苑吧::https://tieba.baidu.com/mo/q/m?word=百合文苑&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn={{(page-1)*30}}\n百合漫画吧::https://tieba.baidu.com/mo/q/m?word=%E7%99%BE%E5%90%88%E6%BC%AB%E7%94%BB&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn={{(page-1)*30}}\ngl漫画吧::https://tieba.baidu.com/mo/q/m?word=gl%E6%BC%AB%E7%94%BB&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn={{(page-1)*30}}&\n百合吧::https://tieba.baidu.com/mo/q/m?word=百合&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn={{(page-1)*30}}",
-    "lastUpdateTime": 1615861549054,
-    "loginUrl": "",
-    "ruleBookInfo": {},
-    "ruleContent": {
-      "content": "@css:#pb_content .d_name,#pb_content .tail-info,#pb_content .p_content@html\n<js>String(result).replace(/\\s*该楼层疑似违[\\s\\S]+?查看此楼|<img.*?class=\"nicknameEmoji\".*?>/g,'').replace(/\\s*<span class=\"tail-info\">\\s*/g,'—').replace(/<li class=\"d_name\">[\\s\\S]+?ad-dom-img=\"true\">/g,'').replace(/<img.*?ad-dom-img=\"true\">/g,'').replace(/<img class=\"icon-jubao\".*?>|—来自.*?端|手机贴吧|.*?快来下载吧！.*?>/g,'')</js>\n##\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}.{1,}?广告",
-      "imageStyle": "FULL",
-      "nextContentUrl": "",
-      "replaceRegex": "##(—.*?—\\d+-\\d+-\\d+ \\d+:\\d+\\n\\s*)(.*)##$1📃$2📃"
-    },
-    "ruleExplore": {
-      "author": "",
-      "bookList": "class.threads_list@tag.li",
-      "bookUrl": "tag.a.0@href##\\?lp=.*",
-      "coverUrl": "class.ti_avatar@img@src",
-      "intro": "class.ti_title@text",
-      "kind": "class.btn_icon@text##(\\d+)##评论$1###",
-      "lastChapter": "class.ti_time@text",
-      "name": "class.ti_title@text##(.{0,20}).*##$1###"
-    },
-    "ruleSearch": {
-      "author": "class.p_violet.1@text",
-      "bookList": "class.s_post",
-      "bookUrl": "tag.a.0@href",
-      "intro": "class.p_content@text&&class.p_title@a@text",
-      "kind": "class.p_violet.0@text",
-      "lastChapter": "class.p_green p_date@text",
-      "name": "class.p_title@a@text##\\&\\#x.*?;",
-      "wordCount": ""
-    },
-    "ruleToc": {
-      "chapterList": "@js:\na=baseUrl.match(/\\/p\\/\\d+/);\nb=result.match(/共<span class=\"red\">(\\d+)<\\/span>页/)[1];\nvar list=[];\nfor(var i=1;i<=b;i++){\nlist.push({n:String(i),m:\"https://tieba.baidu.com\"+a+\"?pn=\"+i})\n}\nlist",
-      "chapterName": "n",
-      "chapterUrl": "m"
-    },
-    "searchUrl": "http://tieba.baidu.com/f/search/res?isnew=1&kw=&qw={{key}}&rn=10&un=&only_thread=1&sm=1&sd=&ed=&pn={{page}},{\n  \"charset\": \"gbk\"\n}",
-    "weight": 0
+  "bookSourceComment": "只看楼主\n◎编辑书籍详情页，在简介内容填上 【只看楼主】  保存，刷新书籍页（有已缓存的正文记得正文也要刷新）\n◎内容只有楼主发帖，无作者名时间等\n\n去空行\n◎层与层之间有一行空行，不想要空行的话\n◎就在书籍详情页的简介内容填上【去空行】\n◎只看楼主跟去空行随便怎么写，写对字就行\n\n\n发现规则url\n贴吧名::https://tieba.baidu.com/mo/q/m?word=贴吧名（不要写吧字）&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn={{(page-1)*30}}",
+  "bookSourceGroup": "🔎  百度",
+  "bookSourceName": "🔎百度贴吧",
+  "bookSourceType": 0,
+  "bookSourceUrl": "https://tieba.baidu.com",
+  "bookUrlPattern": "",
+  "customOrder": 117,
+  "enabled": false,
+  "enabledExplore": true,
+  "exploreUrl": "javagame吧::https://tieba.baidu.com/mo/q/m?word=javagame&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn={{(page-1)*30}}\n\n塞班s60v3吧::https://tieba.baidu.com/mo/q/m?word=塞班s60v3&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn={{(page-1)*30}}\n\n\n百合小说吧::https://tieba.baidu.com/mo/q/m?word=%E7%99%BE%E5%90%88%E5%B0%8F%E8%AF%B4&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn={{(page-1)*30}}\n\n毁魅吧::https://tieba.baidu.com/mo/q/m?word=毁魅&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn={{(page-1)*30}}\n\n百合文吧::https://tieba.baidu.com/mo/q/m?word=%E7%99%BE%E5%90%88%E6%96%87&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E5%85%A8%E9%83%A8&pn={{(page-1)*30}}\ngl小说吧::https://tieba.baidu.com/mo/q/m?word=gl小说&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn={{(page-1)*30}}\n百合文苑吧::https://tieba.baidu.com/mo/q/m?word=%E7%99%BE%E5%90%88%E6%96%87%E8%8B%91&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn={{(page-1)*30}}\n百合漫画吧::https://tieba.baidu.com/mo/q/m?word=%E7%99%BE%E5%90%88%E6%BC%AB%E7%94%BB&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn={{(page-1)*30}}\ngl漫画吧::https://tieba.baidu.com/mo/q/m?word=gl%E6%BC%AB%E7%94%BB&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn={{(page-1)*30}}&\n百合吧::https://tieba.baidu.com/mo/q/m?word=百合&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn={{(page-1)*30}}",
+  "lastUpdateTime": 1621061080147,
+  "loginUrl": "",
+  "ruleBookInfo": {
+    "author": "class.louzhubiaoshi.0@author",
+    "intro": "",
+    "tocUrl": "@js:String(book.customIntro).match(/只看楼主/)?baseUrl.replace(/\\?/,'?see_lz=1&'):baseUrl"
   },
+  "ruleContent": {
+    "content": "@css:#pb_content .d_name,#pb_content .tail-info,#pb_content .p_content@html\n<js>result=String(result).replace(/\\s*该楼层疑似违[\\s\\S]+?查看此楼|<img.*?class=\"nicknameEmoji\".*?>/g,'').replace(/\\s*<span class=\"tail-info\">\\s*/g,'—').replace(/<li class=\"d_name\">[\\s\\S]+?ad-dom-img=\"true\">/g,'').replace(/<img.*?ad-dom-img=\"true\">/g,'').replace(/<img class=\"icon-jubao\".*?>|—来自.*?端|手机贴吧|.*?快来下载吧！.*?>/g,'');\nif(!baseUrl.match(/see_lz/)){\nresult=result.replace(/<li.*?class=\"p_author_name.*>([^<]+)<\\/a>\\s*<\\/li>/g,'📃$1📃')}else{\nresult=org.jsoup.Jsoup.parse(result).select('.p_content').html();\nString(book.customIntro).match(/去空行/)?result=result:\nresult=String(result).replace(/<a rel=\"noopener\" class=\"save_face_card\"><\\/a> /g,'<br>&lrm;<br>')\n}</js>\n<js>\nString(book.customIntro).match(/去空行/)?result=result:result.replace(/(—.*?—\\d+-\\d+-\\d+ \\d+:\\d+)/g,'$1\\n&zwnj;\\n')</js>\n##\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}.{1,}?广告",
+    "imageStyle": "",
+    "nextContentUrl": "",
+    "replaceRegex": ""
+  },
+  "ruleExplore": {
+    "author": "class.ti_author@text",
+    "bookList": "class.threads_list@tag.li",
+    "bookUrl": "tag.a.0@href##\\?lp=.*",
+    "coverUrl": "class.ti_avatar@img@src",
+    "intro": "class.ti_title@text",
+    "kind": "class.btn_icon@text##(\\d+)##评论$1###",
+    "lastChapter": "class.ti_time@text",
+    "name": "class.ti_title@text##(.{0,20}).*##$1###"
+  },
+  "ruleSearch": {
+    "author": "class.p_violet.1@text",
+    "bookList": "class.s_post",
+    "bookUrl": "tag.a.0@href",
+    "intro": "class.p_content@text&&class.p_title@a@text",
+    "kind": "class.p_violet.0@text",
+    "lastChapter": "class.p_green p_date@text",
+    "name": "class.p_title@a@text##\\&\\#x.*?;",
+    "wordCount": ""
+  },
+  "ruleToc": {
+    "chapterList": "@js:\na=baseUrl.match(/\\/p\\/\\d+/);\npn=String(book.customIntro).match(/只看楼主/)?'see_lz=1&pn=':'pn=';\nb=result.match(/共<span class=\"red\">(\\d+)<\\/span>页/)[1];\nvar list=[];\nfor(var i=1;i<=b;i++){\nlist.push({n:String(i),m:\"https://tieba.baidu.com\"+a+\"?\"+pn+i})\n}\nlist",
+    "chapterName": "n",
+    "chapterUrl": "m"
+  },
+  "searchUrl": "http://tieba.baidu.com/f/search/res?isnew=1&kw=&qw={{key}}&rn=10&un=&only_thread=1&sm=1&sd=&ed=&pn={{page}},{\n  \"charset\": \"gbk\"\n}",
+  "weight": 0
+},
   {
     "bookSourceComment": "",
     "bookSourceGroup": "🔎  百度",
