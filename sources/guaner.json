@@ -550,7 +550,7 @@
       "bookUrl": "tag.th@tag.a@href",
       "coverUrl": "",
       "kind": "class.y-style.2@a@text##口-",
-      "lastChapter": "tag.th@tag.a@href\n<js>java.ajax('https://bbs.fanfann.com/'+result)</js>\ntext.在线阅读已开放@href\n<js>\na=java.ajax('https://bbs.fanfann.com/'+result);\n</js>\nclass.volume.-1@tag.li.-1@text",
+      "lastChapter": "tag.th@tag.a@href\n<js>java.ajax('https://bbs.fanfanq.com/'+result)</js>\ntext.在线阅读已开放@href\n<js>\na=java.ajax('https://bbs.fanfann.com/'+result);\n</js>\nclass.volume.-1@tag.li.-1@text",
       "name": "tag.th@tag.a@text##《|》|(txt|TXT).*|\\+番外"
     },
     "ruleToc": {
@@ -558,7 +558,7 @@
       "chapterName": "text##.*☆、",
       "chapterUrl": "href##^##/"
     },
-    "searchUrl": "https://bbs.fanfanf.com/searcher.php?,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"verify=989566d6&step=2&type=thread&keyword={{key}}\"\n}\n@js:java.put('key',key);result",
+    "searchUrl": "https://bbs.fanfanq.com/searcher.php?,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"verify=989566d6&step=2&type=thread&keyword={{key}}\"\n}\n@js:java.put('key',key);result",
     "weight": 0
   },
   {
