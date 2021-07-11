@@ -3026,10 +3026,10 @@
       "tocUrl": "class.gochapter@a@href"
     },
     "ruleContent": {
-      "content": "@js:\ncontent = {  \n    star: 0,   \n    childNode: [],\n    childNodes: java.getElements(\"@@id.novelcontent@p\").toArray(),\n   UpWz: function(m, i) {\n        var k = Math.ceil((i + 1) % this.code);\n        k = Math.ceil(m - k);\n        return k\n      },\n    load: function() {\n    this.code=result.match(/codeurl=.*?code=(\\d+)/)[1];\n    var e = String(java.base64Decode(java.getString('//*[@name=\"client\"]/@content',false))).split(/[A-Z]+%/);\n    var j = 0; \n    for (var i = 0; i < e.length; i++) {\n    var k = this.UpWz(e[i], i);\n    this.childNode[k] = this.childNodes[i]\n    };\n    }\n}\nif(result.match(/<span style=\"color:/)){\ncontent.load();\nresult=content.childNode.join(\"<br>\");}else{result=java.getElements(\"@@id.novelcontent@p\")}",
+      "content": "@js:\ncontent = {  \n    star: 0,   \n    childNode: [],\n    childNodes: java.getElements(\"@@id.novelcontent@p\").toArray(),\n   UpWz: function(m, i) {\n        var k = Math.ceil((i + 1) % this.code);\n        k = Math.ceil(m - k);\n        return k\n      },\n    load: function() {\n    this.code=result.match(/code=(\\d+)/)[1];\n    var e = String(java.base64Decode(java.getString('//*[@name=\"client\"]/@content',false))).split(/[A-Z]+%/);\n    var j = 0; \n    for (var i = 0; i < e.length; i++) {\n    var k = this.UpWz(e[i], i);\n    this.childNode[k] = this.childNodes[i]\n    };\n    }\n}\nif(baseUrl.match(/\\d+_2/)){\ncontent.load();\nresult=content.childNode.join(\"<br>\");}else{result=java.getElements(\"@@id.novelcontent@p\")}",
       "imageStyle": "TEXT",
       "nextContentUrl": "text.下一页@href",
-      "replaceRegex": "##本章尚未完结[\\s\\S]+?下一页|本章已阅读完毕.*|上一章\\s*返回目录[\\s\\S]+|上一页[\\s\\S]+?下一章"
+      "replaceRegex": "##本章尚未完结[\\s\\S]+?下一页|本章已阅读完毕.*|上一章\\s*返回目录[\\s\\S]+|上一页[\\s\\S]+?下一章|本章尚未完结.*"
     },
     "ruleExplore": {},
     "ruleSearch": {
